@@ -7,34 +7,35 @@
   <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-  <div class="background-azul">
-    <!-- Cabeçalho -->
-  <header class="top-header">
+  
+  <header class="header">
     <div class="container">
-      <nav>
-        <div class="logo">
-          Instituto Gênesis
-        </div>
-        <ul class="ul">   
-          <li><a href="hitoria.html">Conheça nossa história</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="saibamais.html">Saiba mais</a>
-          <li>
-        </ul>
+      <h1 class="logo"><span>Instituto Gênesis</span></h1>
+      <nav class="nav">
+        <button class="menu-toggle">☰</button>
+        <ul>
+          <li><a href="./src/pages/historia.html">Conheça nossa história</a></li>
+          <li><a href="./src/pages/projetos.html">Projetos</a></li>
+          <li><a href="./src/pages/saibamais.html">Saiba mais</a></li>
+        </ul>       
       </nav>
     </div>
   </header>
+
   <main>
-    <div class="container">
-      <div class="main-text">
-        <h1>BEM-VINDO</h1>
-        <h2>O Instituto Gênesis nasceu para promover acolhimento, educação e oportunidade para crianças, adolescentes e famílias da comunidade local. Uma iniciativa que une fé, amor e transformação social através da capacitação e criatividade, fundamentadas na cosmovisão cristã</h2>
-        </div>
-        <div class="main-img">
-          <img src="./src/imagens/logofundo.png" alt="Logo do Instituto Gênesis">
-        </div>
-    </div>
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1>O Instituto Gênesis nasceu para promover acolhimento, educação e oportunidade para crianças, adolescentes e famílias da comunidade local. Uma iniciativa que une fé, amor e transformação social através da capacitação e criatividade, fundamentadas na cosmovisão cristã</h1>
+      </div>
+    </section>
   </main>
-  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p></p>
+    </div>
+  </footer>
+  <script src="./src/js/menu.js"></script>
 </body>
 </html>
