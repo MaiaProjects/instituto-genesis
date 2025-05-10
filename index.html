@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Instituto Gênesis</title>
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/style.css" />
 </head>
 <body>
-  
+
+  <!-- Header Principal -->
   <header class="header">
-    <div class="container">
-      <h1 class="logo"><span>Instituto Gênesis</span></h1>
-      <nav class="nav">
-        <button class="menu-toggle">☰</button>
-        <ul>
-          <li><a href="./src/pages/historia.html">Conheça nossa história</a></li>
-          <li><a href="./src/pages/projetos.html">Projetos</a></li>
-          <li><a href="./src/pages/saibamais.html">Saiba mais</a></li>
-        </ul>       
-      </nav>
+    <div class="header-container">
+      <div class="logo-container">
+        <img class="logo" src="src/imagens/assets/logoheader.png" alt="Logo Instituto Gênesis" />
+      </div>
+      <div class="nav-container">
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <nav class="nav">
+          <ul>
+            <li><a href="./src/pages/historia.html">Nossa história</a></li>
+            <li><a href="src/pages/membros.html">Membros</a></li>
+            <li><a href="./src/pages/projetos.html">Projetos</a></li>
+            <li><a href="./src/pages/saibamais.html">Saiba mais</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
+  <!-- Conteúdo Principal -->
   <main>
     <section class="hero">
       <div class="overlay"></div>
-      <div class="container">
-        <h1>O Instituto Gênesis nasceu para promover acolhimento, educação e oportunidade para crianças, adolescentes e famílias da comunidade local. Uma iniciativa que une fé, amor e transformação social através da capacitação e criatividade, fundamentadas na cosmovisão cristã</h1>
+      <div class="text-box">
+        <h1>
+          O Instituto Gênesis nasceu para promover acolhimento, educação e oportunidade para crianças, adolescentes e famílias da comunidade local. Uma iniciativa que une fé, amor e transformação social através da capacitação e criatividade, fundamentadas na cosmovisão cristã.
+        </h1>
       </div>
     </section>
   </main>
 
+  <!-- Rodapé -->
   <footer class="footer">
     <div class="container">
       <p></p>
     </div>
   </footer>
+
   <script src="./src/js/menu.js"></script>
 </body>
 </html>
