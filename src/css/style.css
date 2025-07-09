@@ -115,26 +115,25 @@ body {
 }
 
 .hero .text-box {
-  max-width: 90%;
-  margin: 70px 10px 0 10px;
-  padding: 10px 0 20px 0;
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+  padding: 0 1.5rem;
   text-align: left;
   position: relative;
   z-index: 2;
+  /* margin-inline: 10px; */
 }
 
 .hero h1 {
-  font-size: 17px;
-  line-height: 1.8;
+  font-size: clamp(1rem, 2.2vw + 0.6rem, 2.rem);
+  line-height: 1.7;
   font-weight: 700;
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin-right: 10px;
 }
 
 /* ===== TABLET: >= 500px ===== */
 @media (min-width: 481px) {
-
   .header-container {
     min-height: 80px;
     margin: 5px 0px 0 0;
@@ -153,12 +152,8 @@ body {
 
   .hero .text-box {
     max-width: 80%;
-    margin: 75px 0px 0 5px;
-    padding: 15px 35px 15px 5px;
-  }
-  
-  .hero h1 {
-    font-size: 20px;
+    margin: 75px auto 0;
+    padding: 15px 35px 15px 0;
   }
 }
 
@@ -193,26 +188,20 @@ body {
 
   .nav a {
     font-size: 18px;
-    
   }
 
   .hero .text-box {
     max-width: 70%;
-    margin: 90px 0 0 10px;
-    padding: 10px 65px 35px 10px;
-  }
-
-  .hero h1 {
-    font-size: 21px;
+    margin: 90px auto 0;
+    padding: 10px 65px 35px 0;
   }
 }
 
 /* ===== DESKTOP: >= 1024px ===== */
 @media (min-width: 1024px) {
-  
-    .header-container {
-      height: 90px;
-      margin: 5px 10px;
+  .header-container {
+    height: 90px;
+    margin: 5px 10px;
   }
 
   .logo-container .logo{
@@ -232,22 +221,16 @@ body {
 
   .hero .text-box {
     max-width: 65%;
-    padding: 5px 70px 5px 10px;
-  }
-
-  .hero h1 {
-    font-size: 24px;
+    padding: 5px 70px 5px 0;
   }
 }
 
 @media (min-width: 1280px) {
-
-
-  .nav ul{
+  .nav ul {
     gap: 25px;
   }
 
-  .nav a{
+  .nav a {
     margin-right: 15px;
     font-size: 20px;
   }
@@ -256,14 +239,9 @@ body {
     margin-top: 80px;
     padding-left: 20px;
   }
-
-  .hero h1 {
-    font-size: 26px;
-  }
 }
 
 @media (min-width: 1440px) {
-
   .header-container {
     margin: 10px;
   }
@@ -278,24 +256,18 @@ body {
     max-width: 65%;
     padding-left: 20px;
   }
-
-  .hero h1 {
-    font-size: 28px;
-  }
 }
 
 @media (min-width: 1920px) {
-  
   .header-container {
     height: 100px;
     margin: 15px 30px;
   }
 
-
   .logo-container .logo {
     padding: 30px 0px 30px 0px;
   }
-  
+
   .nav a {
     margin-right: 15px;
     font-size: 26px;
@@ -305,15 +277,9 @@ body {
     max-width: 55%;
     padding-left: 35px;
   }
-
-  .hero h1 {
-    font-size: 34px;
-  }
 }
 
 @media (min-width: 2088px) {
-
-
   .header-container {
     height: 100px;
     margin: 20px 30px;
@@ -323,7 +289,6 @@ body {
     padding: 25px 0px 25px 0px;
   }
 
-
   .nav a {
     font-size: 28px;
   }
@@ -331,9 +296,5 @@ body {
   .hero .text-box {
     max-width: 50%;
     padding-left: 35px;
-  }
-
-  .hero h1 {
-    font-size: 36px;
   }
 }
